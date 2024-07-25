@@ -1,0 +1,53 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": true,
+    "ignore": ["dist", "doc_build"],
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 80
+  },
+  "linter": {
+    "ignore": ["dist", "doc_build"],
+    "rules": {
+      "a11y": {
+        "noSvgWithoutTitle": "off",
+        "useAltText": "off",
+        "useKeyWithClickEvents": "off",
+        "useKeyWithMouseEvents": "off",
+        "useValidAnchor": "off"
+      },
+      "complexity": {
+        "noBannedTypes": "off",
+        "noForEach": "off",
+        "noUselessFragments": "warn",
+        "useLiteralKeys": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "warn"
+      },
+      "performance": {
+        "noDelete": "off"
+      },
+      "recommended": true,
+      "style": {
+        "noNonNullAssertion": "off",
+        "noParameterAssign": "warn",
+        "noUnusedTemplateLiteral": "off",
+        "noUselessElse": "off",
+        "useDefaultParameterLast": "warn",
+        "useExponentiationOperator": "off",
+        "useImportType": "off",
+        "useSelfClosingElements": "off"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "warn",
+        "noConfusingVoidType": "off",
+        "noExplicitAny": "off",
+        "useGetterReturn": "off"
+      }
+    }
+  }
+}

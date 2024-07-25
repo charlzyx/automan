@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+.idea
+.vscode
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# umi
+package-lock.json
+
+.umi
+.umi-production
+.umi-development
+# umi-plugins
+# umi-plugin-envmode
+ENV.ts
+.env.ignore
+# umi-pugin-deploy
+.deploy
+
+Dockerfile
+
+#mac
+.history/
